@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#board {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td[data-cell] {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+td[data-cell]:hover {
+    background-color: #eee;
+}
+
+#message {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#reset-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: #555;
+}
+
+.winning-cell {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
